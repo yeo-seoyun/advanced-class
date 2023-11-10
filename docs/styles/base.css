@@ -1,0 +1,21 @@
+@import url(./normalilze.css);
+
+body {
+  font: 1rem/1.5  "SUIT Variable", Arial, sans-serif;
+}
+
+img {
+  vertical-align: middle;
+}
+
+button {
+  cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+/* a {
+  font-weight: ;
+} */
